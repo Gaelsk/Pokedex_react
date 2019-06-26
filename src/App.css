@@ -1,0 +1,13 @@
+.App{text-align:center;width:50%;margin:auto;color:#333;}.App h1{
+text-transform:uppercase;letter-spacing:-10px;font-size:calc(2.5rem + 10vh);
+color:#00bcd4;-webkit-text-stroke:3px #FFF;}.App input{background-color:#FFF;}
+.App ul{margin:0;padding:0;}.App ul li{display:flex;justify-content:space-between;
+list-style:none;padding:16px;font-size:calc(0.5em + 1vw);background-color:#FFF;
+border-bottom:3px solid #00bcd4;box-shadow:2px 0 10px rgba(0,0,0,0.2);}
+.App ul li:hover{background-color:#ECEFF5}.Loader{width:60px;height:60px;
+margin:50px auto;border-radius:50%;border:8px solid #f1f1f1;border-top:8px solid #00bcd4;
+animation:spin 1s linear infinite;}@keyframes spin{0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}}.none{-webkit-text-stroke:1px red;font-size:calc(1rem + 1.5vh);
+color:orange}@media screen and (max-width:600px){.App{width: 90%;}.App h1{
+-webkit-text-stroke:2px #FFF;letter-spacing:-4px;font-size: calc(2rem + 5vh)}
+.App ul li{padding:8px}.App ul li img{width:40px;height:40px}}
